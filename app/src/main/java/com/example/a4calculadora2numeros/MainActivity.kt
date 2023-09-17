@@ -61,8 +61,9 @@ class MainActivity : AppCompatActivity() {
     fun areCorrect(n1:EditText, n2:EditText):Boolean{
         var areCorrect = false
         try{
-            var num1 = n1.toString().toInt()
-            var num2 = n2.toString().toInt()
+            var num1 = n1.text.toString().toInt()
+            var num2 = n2.text.toString().toInt()
+            areCorrect = true
         }catch(e:Exception){
             Log.e("Sergio","${e}")
         }
