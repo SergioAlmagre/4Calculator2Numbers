@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-
+//Esto es un test para actualizar la clonación del repositorio local entre diferentes equipos
 
 
 
